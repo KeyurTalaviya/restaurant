@@ -1,0 +1,72 @@
+ul {
+  list-style: none;
+  display: flex;
+}
+ul li a {
+  text-decoration: none;
+  word-spacing: 50px;
+  justify-content: space-between;
+}
+/* #header {
+  display: flex;
+} */
+.card-body::before {
+  transition: 2s;
+  transform: scale(1.5);
+}
+.card:hover {
+  transition: 1s;
+  transform: scale(1.2);
+}
+
+.checked {
+  color: orange;
+}
+.card-chef {
+  border-radius: 15px;
+}
+.footer-text {
+  font-size: 14px;
+  color: aliceblue;
+}
+
+ul li a:hover {
+  border-bottom: 2px solid #dc9118;
+  transition: 1s;
+  transform: scale(1.1);
+  color: #dc9118;
+}
+
+.book-table:hover {
+  background: #dc9118;
+  border-color: #dc9118;
+  transition: 1s;
+  transform: scale(1.1);
+}
+/* New Learn More */
+
+.tittle h6 {
+  color: #e70d0d;
+  font-size: 48px;
+}
+
+.text-danger {
+  color: #e70d0d;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.list-unstyled li {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.list-unstyled li::before {
+  content: "\f111";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 0;
+  color: #e70d0d;
+}
